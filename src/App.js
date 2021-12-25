@@ -5,7 +5,7 @@ import HomePage from './pages/homepage/homepage.component';
 
 const HatsPage = () => (
   <div className="">
-    <h1>HATS PAGE</h1>
+    <h1>HATS PAGE UPDATE</h1>
   </div>
 )
 
