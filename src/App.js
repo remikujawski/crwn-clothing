@@ -28,6 +28,7 @@ class App extends React.Component {
             ...snapShot.data()
           })
         });
+        console.log('SYNC');
       }
       setCurrentUser(userAuth);
     });
