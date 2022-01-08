@@ -26,9 +26,8 @@ class App extends React.Component {
           setCurrentUser({
             id: snapShot.id,
             ...snapShot.data()
-          })
+          });
         });
-        console.log('SYNC');
       }
       setCurrentUser(userAuth);
     });
@@ -54,6 +53,6 @@ class App extends React.Component {
 
 const mapDispatchToProps = dispatch => ({
   setCurrentUser: user => dispatch(setCurrentUser(user))
-})
+});
 
 export default connect(null, mapDispatchToProps)(App);
